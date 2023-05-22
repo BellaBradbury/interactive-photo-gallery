@@ -73,10 +73,10 @@
     // The last focused element before opening the overlay
     var documentLastFocus = null;
     var overlayClickHandler = function(event) {
-        // Close the overlay when user clicks directly on the background
-        if (event.target.id.indexOf('baguette-img') !== -1) {
-            hideOverlay();
-        }
+        // Close the overlay when user clicks directly on the background - FEATURE DISABLED
+        // if (event.target.id.indexOf('baguette-img') !== -1) {
+        //     hideOverlay();
+        // }
     };
     var previousButtonClickHandler = function(event) {
         event.stopPropagation ? event.stopPropagation() : event.cancelBubble = true; // eslint-disable-line no-unused-expressions
@@ -392,10 +392,10 @@
         // Change transition for proper animation
         slider.style.transition = slider.style.webkitTransition = (options.animation === 'fadeIn' ? 'opacity .4s ease' :
             options.animation === 'slideIn' ? '' : 'none');
-        // Hide buttons if necessary
-        if (options.buttons === 'auto' && ('ontouchstart' in window || currentGallery.length === 1)) {
-            options.buttons = false;
-        }
+        // Hide buttons if necessary - FEATURE BROKEN
+        // if (options.buttons === 'auto' && ('ontouchstart' in window || currentGallery.length === 1)) {
+        //     options.buttons = false;
+        // }
         // Set buttons style to hide or display them
         previousButton.style.display = nextButton.style.display = (options.buttons ? '' : 'none');
         // Set overlay color
