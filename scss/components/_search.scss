@@ -1,4 +1,4 @@
-// ---------- SEARCH BAR STYLES ---------- //
+// ---------- SEARCH BAR ---------- //
 #search {
     width: 50%;
     height: 30px;
@@ -7,8 +7,20 @@
     border: solid 2px lightgray;
     border-radius: 5px;
     font-size: large;
+    text-align: left;
 
     &::placeholder {
         color: darken(lightgray, 25);
     }
 } 
+
+// ---------- NO RESULTS ---------- //
+#no-results {
+    display: none;
+    margin: 3% 10%;
+    padding: 5% 0;
+    font-size: larger;
+    background-color: lighten(crimson, 40%);
+    border: solid 3px crimson;
+    border-radius: 5px;
+}

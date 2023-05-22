@@ -16,7 +16,3 @@ Team Treehouse - Front End Web Development TechDegree - Project 5
 * At the top of the page, there is a search area where photos will hide and show depending on user input. 
 * When the user clicks on a thumbnail, the photo displays in a lightbox. 
 * There are "back" and "previous" arrows to cycle through photos.
-
-
-# OPEN TAGS
-< search

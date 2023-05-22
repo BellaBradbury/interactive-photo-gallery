@@ -555,6 +555,10 @@ template {
     transform: scale(1);
   }
 }
+* {
+  text-align: center;
+}
+
 html, body {
   overflow-x: hidden;
 }
@@ -567,9 +571,20 @@ html, body {
   border: solid 2px lightgray;
   border-radius: 5px;
   font-size: large;
+  text-align: left;
 }
 #search::placeholder {
   color: #939393;
+}
+
+#no-results {
+  display: none;
+  margin: 3% 10%;
+  padding: 5% 0;
+  font-size: larger;
+  background-color: #fac3ce;
+  border: solid 3px crimson;
+  border-radius: 5px;
 }
 
 .gallery {
