@@ -1,1 +1,3 @@
-// ---------- VARIABLES ---------- //
+// ---------- GRID ---------- //
+$grid-item: 225px;
+$grid-layout: repeat( auto-fit, minmax($grid-item, 1fr) );

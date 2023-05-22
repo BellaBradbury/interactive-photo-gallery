@@ -1,0 +1,20 @@
+// ---------- GRID STYLES ---------- //
+.gallery {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-template-columns: $grid-layout;
+    grid-template-rows: $grid-layout;
+
+    a {
+        padding: 0;
+        width: $grid-item;
+        height: $grid-item;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

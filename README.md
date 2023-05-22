@@ -19,5 +19,4 @@ Team Treehouse - Front End Web Development TechDegree - Project 5
 
 
 # OPEN TAGS
-< html + & *
 < search
