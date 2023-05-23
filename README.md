@@ -1,7 +1,8 @@
 # Interactive Photo Gallery
 
 Team Treehouse - Front End Web Development TechDegree - Project 5
-    - Submitted 00/00/23 ***IN PROGRESS***
+    
+    - Submitted 05/23/23 ***SUBMITTED***
 
 -SKILLS USED-
 * JavaScript
