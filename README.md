@@ -2,7 +2,7 @@
 
 Team Treehouse - Front End Web Development TechDegree - Project 5
     
-    - Submitted 05/23/23 ***SUBMITTED***
+    - Submitted 05/23/23 ***EXCEEDS EXPECTATIONS***
 
 -SKILLS USED-
 * JavaScript
